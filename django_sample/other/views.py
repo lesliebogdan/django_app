@@ -2,4 +2,4 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 def simple_view(request):
-    return HttpResponse("HELLO bitchlet! This is a new web page")
+    return HttpResponse("<h1>HELLO bitchlet! This is a new web page</h1>")
